@@ -77,27 +77,29 @@
 			<!-- Здесь будет форма поиска и карта -->
 			<div class="map">
 				<form class="booking_search">
-					<p class="choose_date">
-						<label class="label_choose_date" for="arrival">Дата заезда</label>
-						<input class="input_choose_date" type="text" name="to" id="arrival">
-					</p>
-					<p class="choose_date">
-						<label class="label_choose_date" for="departure">Дата выезда</label>
-						<input class="input_choose_date" type="text" name="out" id="departure">
-					</p>
-					<p class="people">
-						<label class="people_all" for="people_choose_adult">Взрослые:  
-                            <button class="plus" type="button" name="more">+</button>
+					<div class="date selection">
+						<p class="choose_date">
+							<label class="label_choose_date" for="arrival">Дата заезда</label>
+							<input class="input_choose_date" type="text" name="to" id="arrival">
+						</p>
+						<p class="choose_date">
+							<label class="label_choose_date" for="departure">Дата выезда</label>
+							<input class="input_choose_date" type="text" name="out" id="departure">
+						</p>
+					</div>
+					<div class="people">
+						<p><label class="people_all" for="people_choose_adult">Взрослые:</label>   
+                            <button class="value" type="button">+</button>
                             <input class="quantity" type="text" id="people_choose_adult" value="2">
-                            <button class="minus" type="button" name="less">-</button>
-                        </label> 
-                        <label class="people_all" for="people_choose_kids">Дети
-                            <button class="plus" type="button" name="more">+</button>
+							<button class="value" type="button">-</button>
+						</p>
+                        <p><label class="people_all" for="people_choose_kids">Дети</label> 
+                            <button class="value" type="button">+</button>
                             <input class="number_input" type="text" id="people_choose_kids" value="0">
-                            <button class="minus" type="button" name="less">-</button>
-						</label>
-                    </p>
-					<a href="###" class="button_search">Найти</a>             
+							<button class="value" type="button">-</button>
+						</p>
+                    </div>
+					<button type="submit">Найти</button>             
 				</form>
 			</div>
 		</section>
