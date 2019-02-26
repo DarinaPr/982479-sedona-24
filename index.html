@@ -83,38 +83,37 @@
 		<section class="hotel_search">
 			<h2 class="title_popup">Заинтересовались?</h2>
 			<p class="booking_text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-			<button class="button_search" type="button"> Поиск гостиницы в Седоне</button>
+			<a class="button_search" href="#">Поиск гостиницы в Седоне</a>
 			
-			<div class="map">
-				<img src="img/map.jpg" alt="map" width="800" height="256">
-			</div>
 			<form class="booking_search" action="https://echo.htmlacademy.ru" method="post">
-				<div class="date selection">
 					<p class="choose_date">
 						<label class="label_choose_date" for="arrival">Дата заезда</label>
 						<input class="input_choose_date" type="text" name="to" id="arrival">
+						<button class="date_button" type="button" aria-label="Выбор даты"></button>
 					</p>
 					<p class="choose_date">
 						<label class="label_choose_date" for="departure">Дата выезда</label>
 						<input class="input_choose_date" type="text" name="out" id="departure">
+						<button class="date_button" type="button" aria-label="Выбор даты"></button>
 					</p>
-				</div>
-				<div class="people">
 					<p class="choose_date">
 						<label class="amount_of_people" for="people_choose_adult">Взрослые:</label>   
-						<button class="value_button" type="button">+</button>
+						<button class="value_button" type="button" aria-label="Добавить взрослого">+</button>
 						<input class="number_input" type="text" name="adults" id="people_choose_adult" value="2">
-						<button class="value_button" type="button">-</button>
+						<button class="value_button" type="button" aria-label="Убрать взрослого">-</button>
 					</p>
 					<p class="choose_date">
 						<label class="amount_of_people" for="people_choose_kids">Дети</label> 
-						<button class="value_button" type="button">+</button>
+						<button class="value_button" type="button" aria-label="Добавить ребенка">+</button>
 						<input class="number_input" type="text" name="kids" id="people_choose_kids" value="0">
-						<button class="value_button" type="button">-</button>
+						<button class="value_button" type="button" aria-label="Убрать ребенка">-</button>
 					</p>
-				</div>
 				<button type="submit">Найти</button>             
 			</form>
+
+			<div class="map">
+				<img src="img/map.jpg" alt="map" width="800" height="256">
+			</div>
 		</section>
 	</main>
 	
@@ -122,9 +121,9 @@
 	<p class="hashtag">#visitSEDONA</p>
 	
 		<ul class="footer_social">
-			<li><a class="social-button" href="https://twitter.com">twitter</a></li>
-			<li><a class="social-button" href="https://www.facebook.com">facebook</a></li>
-			<li><a class="social-button" href="https://www.youtube.com"> youtube</a></li>
+			<li><a class="social_button" href="https://twitter.com">twitter</a></li>
+			<li><a class="social_button" href="https://www.facebook.com">facebook</a></li>
+			<li><a class="social_button" href="https://www.youtube.com"> youtube</a></li>
 		</ul>
 	
 	<p class="footer_copyright">
