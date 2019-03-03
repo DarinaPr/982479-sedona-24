@@ -1,5 +1,198 @@
-body{
-    margin: 0%;
+body {
+  margin: 0;
+  padding: 0;;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #000000;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+  background-position: top center;
+  background-repeat: no-repeat;       
+}
+a 
+{
+  text-decoration: none;
+}
 
-    background: gray
+.main_navigation 
+{
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.site_navigation a
+{
+  color: #000000;
+}
+.site_navigation
+{
+  list-style: none;
+}
+.site_navigation a:hover 
+{
+  color: #81b3d2
+}
+
+.site_navigation a:active 
+{
+  color: #b2b2b2
+}
+
+.photo_greeting 
+{ 
+  margin-bottom: 55px;
+  margin-top: 40px;
+  width: 1200px;
+  height: 512px;
+  background-color: #b0cddf;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img//bg.jpg"),
+  url("../img/polygon.svg") no-repeat; /*из-за полтгона пропадает предыдущее изображение*/
+}
+
+.slogan
+{
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.advantage_list
+{
+  font-size: 14px;
+  color: #333333;
+  width: 489px;
+        height: 13px;
+}
+
+.title_popup
+{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.booking_text
+{
+  line-height: 24px;
+  color: #333333;
+}
+
+.button_search /*не удается увеличить размер кнопки*/
+{
+  width: 568px;
+  height: 86px; 
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #766357; 
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.button_search:hover 
+{
+  background-color: #604e43;
+}
+
+.button_search:active 
+{
+  background-color: #503e33;
+  color: #928a85;
+}
+
+.label_choose_date
+{
+  line-height: 26px;
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.label_choose_date .input_choose_date:hover 
+{
+  background-color: #ebebeb;
+  font-weight: bold;
+}
+
+
+.label_choose_date .input_choose_date:focus 
+{
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.amount_of_people
+{
+  line-height: 26px;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.date_button
+{
+  background-color:#a9a9a9; 
+}
+.date_button:focus
+{
+  background-color:#0000;
+}
+.date_button:active 
+{
+  background-color:#81b3d2;
+}
+.value_button
+{
+  color:#a9a9a9;
+}
+.value_button:focus
+{
+ color:#0000;
+}
+.value_button:active 
+{
+  color:#81b3d2;
+}
+
+.button_search_hotel
+{
+  width: 458px;
+  height: 58px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.button_search_hotel:focus 
+{
+  color: #ffffff;
+
+  background-color: #669ec0;
+}
+.button_search_hotel:active 
+{
+  color: #88b6d1;
+
+  background-color: #5496bd;
+}
+
+.hashtag
+{
+  font-weight: bold;
+  font-size: 21px; 
+}
+
+.footer_social
+{
+  list-style: none;
+}
+
+.footer_copyright
+{
+
 }
